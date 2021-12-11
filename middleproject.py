@@ -11,7 +11,7 @@ def setup(level):
 
     # 얼마나 많은 숫자를 보여줄 것인가?
     number_count = level + 3
-    number_count = min(number_count, 40)  # 만약 40을 초과하면 40으로 처리
+    number_count = min(number_count, 40)
 
     # 실제 화면에 grid 형태로 숫자를 랜덤으로 배치
     shuffle_grid(number_count)
